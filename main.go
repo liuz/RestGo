@@ -9,7 +9,7 @@ func main() {
 	var appPort = os.Getenv("appPort")
 
 	if appPort == "" {
-		appPort = "1111"
+		appPort = "9090"
 	}
 
 	routes.SetupServer(appPort)
